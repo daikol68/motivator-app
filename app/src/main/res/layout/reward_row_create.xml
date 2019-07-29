@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reward_create"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/background_inner"
+    android:orientation="horizontal">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/reward_create_picture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ic_unknown"
+        android:scaleType="fitXY"/>
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/achievement_detail_coin"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_money"
+        android:scaleType="fitXY" />
+
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/reward_create_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_margin="5dp"
+        android:hint="@string/reward_hint_points"
+        android:ems="4"
+        android:inputType="numberSigned"
+        android:maxEms="4"
+        android:minEms="4"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"/>
+
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/reward_create_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_margin="5dp"
+        android:hint="@string/reward_hint_name"
+        android:ems="8"
+        android:inputType="textAutoCorrect"
+        android:maxEms="8"
+        android:minEms="8"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"/>
+
+    <android.support.design.widget.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/reward_create_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        app:srcCompat="@drawable/ic_decline"
+        app:fabSize="mini"
+        app:layout_anchor="@id/reward_create"
+        app:layout_anchorGravity="bottom|right|end"/>
+
+</LinearLayout>

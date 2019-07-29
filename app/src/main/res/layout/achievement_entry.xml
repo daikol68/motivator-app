@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/achievement_entry"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:padding="5sp"
+    android:orientation="vertical"
+    android:background="@drawable/border_background">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/achievement_entry_picture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/ic_unknown_black"
+        android:scaleType="fitXY" />
+
+    <ProgressBar
+        android:id="@+id/achievement_entry_me_progress"
+        style="@style/Widget.ProgressBar.Horizontal"
+        android:layout_width="40dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center"
+        android:max="10"
+        android:progress="3" />
+
+</LinearLayout>

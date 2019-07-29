@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/competition_create"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/background_outer"
+    android:orientation="vertical">
+
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/competition_create_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_margin="5dp"
+        android:ems="15"
+        android:hint="@string/achievement_hint_name"
+        android:inputType="textAutoCorrect"
+        android:maxEms="30"
+        android:minEms="10"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="15sp" />
+
+    <View
+        style="@style/Divider"
+        android:background="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/competition_create_picture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ic_image" />
+
+    <View
+        style="@style/Divider"
+        android:background="@color/colorAccent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/competition_create_competitors_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/competition_create_competitors"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/competition_create_competitors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:layout_below="@id/competition_create_competitors_title" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/competition_create_competitor_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom|end"
+            android:layout_alignParentRight="true"
+            app:fabSize="auto"
+            app:srcCompat="@drawable/ic_add"
+            app:layout_anchor="@id/competition_create_competitors"
+            app:layout_anchorGravity="right"/>
+
+    </RelativeLayout>
+
+    <View
+        style="@style/Divider"
+        android:background="@color/colorAccent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/competition_create_achievements_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/competition_create_achievements"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/competition_create_achievements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:layout_below="@id/competition_create_achievements_title" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/competition_create_achievement_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom|end"
+            android:layout_alignParentRight="true"
+            app:fabSize="auto"
+            app:srcCompat="@drawable/ic_add"
+            app:layout_anchor="@id/competition_create_achievements"
+            app:layout_anchorGravity="right"/>
+
+    </RelativeLayout>
+
+    <View
+        style="@style/Divider"
+        android:background="@color/colorAccent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/competition_create_rewards_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/competition_create_rewards"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/competition_create_rewards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:textIsSelectable="true"
+            android:layout_below="@id/competition_create_rewards_title" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/competition_create_reward_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom|end"
+            android:layout_alignParentRight="true"
+            app:fabSize="auto"
+            app:srcCompat="@drawable/ic_add"
+            app:layout_anchor="@id/competition_create_rewards"
+            app:layout_anchorGravity="right"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "297258268898",
+    "firebase_url": "https://acclaim-84051.firebaseio.com",
+    "project_id": "acclaim-84051",
+    "storage_bucket": "acclaim-84051.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297258268898:android:b88b9ee85a3b6bd9",
+        "android_client_info": {
+          "package_name": "de.daikol.acclaim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297258268898-p5569qomil2pes8udf1da4badena9o37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCywYaMKUtV4cjRu8SbY8dgRajtHrLsV7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

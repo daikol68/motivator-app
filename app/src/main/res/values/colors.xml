@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorBlue</color>
+    <color name="colorPrimaryDark">@color/colorBlueDark</color>
+    <color name="colorAccent">@color/colorPeachDark</color>
+
+    <color name="colorGrey">#7e7c7d</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGreen">#58a74a</color>
+    <color name="colorRed">#c24d44</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlue">#0f71b3</color>
+    <color name="colorBlueDark">#094771</color>
+    <color name="colorLightBlue">#b4d2e7</color>
+    <color name="colorLightBlueDark">#235d83</color>
+    <color name="colorPeach">#e2d3aa</color>
+    <color name="colorPeachDark">#c25900</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Challenger</string>
+
+    <string name="empty_competitionName">Leere Challenge verwenden</string>
+
+    <string name="competition_detail_status">Status</string>
+    <string name="competition_status_open">Offen</string>
+    <string name="competition_status_confirmed">Angenommen</string>
+    <string name="competition_status_declined">Abgelehnt</string>
+    <string name="competition_status_closed">Geschlossen</string>
+
+    <string name="create_competition_question">Soll eine Vorlage verwendet werden?</string>
+    <string name="create_competition_option_yes">Ja</string>
+    <string name="create_competition_option_no">Nein</string>
+
+    <string name="leave_competition_question">Soll die Challenge verlassen werden?</string>
+    <string name="leave_competition_option_yes">Ja</string>
+    <string name="leave_competition_option_no">Nein</string>
+
+    <string name="decline_competition_question">Soll die Challenge abgelehnt werden?</string>
+    <string name="decline_competition_option_yes">Ja</string>
+    <string name="decline_competition_option_no">Nein</string>
+
+    <string name="decline_progress_question">Soll der Fortschritt abgelehnt werden?</string>
+    <string name="decline_progress_option_yes">Ja</string>
+    <string name="decline_progress_option_no">Nein</string>
+    <string name="decline_progress_hint_comment">Kommentar</string>
+
+    <string name="add_competitor_question">Soll dieser Benutzer als Teilnehmer hinzugefügt werden?</string>
+    <string name="close_competition_question">Soll diese Challenge beendet werden?</string>
+    <string name="close_competition_option_yes">Ja</string>
+    <string name="close_competition_option_no">Nein</string>
+
+    <string name="close_competition_detail_ok">Ok</string>
+
+    <!-- Strings related toUser login -->
+    <string name="facebook_app_id">658863897614533</string>
+
+    <string name="message_hint_name">Nachricht</string>
+    <string name="competitor_search_hint">Suche</string>
+
+    <string name="achievement_hint_name">Name</string>
+    <string name="achievement_hint_description">Beschreibung</string>
+    <string name="achievement_hint_finish">Wiederholungen</string>
+    <string name="achievement_hint_points">Punkte</string>
+
+    <string name="send_message_accept">Senden</string>
+    <string name="send_message_cancel">Abbrechen</string>
+
+    <string name="close_achievement_detail_ok">Ok</string>
+    <string name="close_reward_detail_ok">Ok</string>
+    <string name="close_reward_detail_accept">Akzeptieren</string>
+    <string name="close_reward_detail_decline">Ablehnen</string>
+
+    <string name="reward_hint_name">Name</string>
+    <string name="reward_hint_description">Beschreibung</string>
+    <string name="reward_hint_points">Kosten</string>
+
+    <string name="competition_create_picture">Bild</string>
+    <string name="competition_create_achievements">Erfolge</string>
+    <string name="competition_create_rewards">Belohnungen</string>
+    <string name="competition_create_competitors">Teilnehmer</string>
+
+    <string name="competition_create_achievement_add">Erfolg hinzufügen</string>
+    <string name="competition_create_reward_add">Belohnung hinzufügen</string>
+    <string name="competition_create_competitor_add">Teilnehmer hinzufügen</string>
+
+    <!-- Strings related toUser menu -->
+    <string name="menu_messages_title">Nachrichten</string>
+    <string name="menu_challenges_title">Challenges</string>
+    <string name="menu_settings_title">Einstellungen</string>
+    <string name="menu_logout_title">Logout</string>
+
+    <string name="menu_history_title">Historie</string>
+    <string name="menu_challenges_open">Offene</string>
+    <string name="menu_apply_title">Bestätigen</string>
+    <string name="menu_apply_achievement">Fortschritt</string>
+    <string name="menu_apply_reward">Belohnungen</string>
+    <string name="menu_new_title">Jemanden challengen</string>
+    <string name="menu_new_template">Vorlage verwenden</string>
+    <string name="menu_new_create">Challenge erstellen</string>
+
+    <string name="achiev_header"><u>Achievements</u></string>
+    <string name="reward_header"><u>Belohnungen</u></string>
+
+    <string name="news_read">OK</string>
+    <string name="news_accept">ja</string>
+    <string name="news_decline">nein</string>
+    <string name="news_reply">Antworten</string>
+
+    <string name="competition_update_hint">Editieren</string>
+    <string name="competition_clone_hint">Kopieren</string>
+
+    <string name="example_statusText">Angenommen</string>
+    <string name="example_userName">daikol</string>
+    <string name="example_competitorName">daikol</string>
+    <string name="example_competitionName">Challenge</string>
+    <string name="example_newsTitle">Challenge angenommen</string>
+    <string name="example_newsBody">Ihre Challenge wurde angenommen.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_synchronize">Synchronisieren</string>
+
+    <string name="title_user_picture">Profilbild</string>
+
+    <string name="title_template_list">Vorlagen</string>
+    <string name="title_template_detail">Vorlage</string>
+    <string name="title_creation">Challenge erstellen</string>
+    <string name="title_update">Challenge bearbeiten</string>
+    <string name="title_template">Vorlagen</string>
+    <string name="title_balance">Guthaben</string>
+    <string name="title_competitors_list">Teilnehmer</string>
+    <string name="title_achievement_list">Fortschritt</string>
+    <string name="title_reward_list">Offene Belohnungen</string>
+    <string name="title_reward_row_list">Belohnungen</string>
+    <string name="title_progress_row_list">Offener Fortschritt</string>
+    <string name="title_waiting_list">Offene Herausforderungen</string>
+    <string name="title_step_list">Offene Fortschritte</string>
+    <string name="title_competition_list">Laufende Herausforderungen</string>
+    <string name="title_competition_detail">Challenge Details</string>
+    <string name="title_friend_list">Herausfordern</string>
+    <string name="title_challenges_list">Challenges</string>
+    <string name="title_message_list">Nachrichten</string>
+    <string name="logout">Logout</string>
+</resources>

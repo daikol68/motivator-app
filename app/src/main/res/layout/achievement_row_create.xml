@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/achievement_create"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_inner"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/achievement_create_picture"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_unknown"
+            android:scaleType="fitXY" />
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/achievement_detail_coin"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_money"
+            android:scaleType="fitXY" />
+
+        <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/achievement_create_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_margin="5dp"
+            android:ems="5"
+            android:hint="@string/achievement_hint_points"
+            android:inputType="numberSigned"
+            android:maxEms="5"
+            android:minEms="5"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"/>
+
+        <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/achievement_detail_repeat"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:background="@drawable/ic_repeat"
+            android:scaleType="fitXY" />
+
+        <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/achievement_create_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:layout_margin="5dp"
+            android:ems="8"
+            android:hint="@string/achievement_hint_finish"
+            android:inputType="numberSigned"
+            android:maxEms="8"
+            android:minEms="8"
+            android:textSize="10sp"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"/>
+
+    </LinearLayout>
+
+    <EditText xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/achievement_create_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_margin="5dp"
+        android:ems="15"
+        android:hint="@string/achievement_hint_name"
+        android:inputType="textAutoCorrect"
+        android:maxEms="30"
+        android:minEms="10"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"/>
+
+    <android.support.design.widget.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/achievement_create_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:srcCompat="@drawable/ic_decline"
+        app:fabSize="mini"
+        app:layout_anchor="@id/achievement_create"
+        app:layout_anchorGravity="bottom|right|end" />
+
+</LinearLayout>

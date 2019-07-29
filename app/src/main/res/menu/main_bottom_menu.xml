@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_messages"
+        android:enabled="true"
+        android:icon="@drawable/ic_message"
+        android:title="@string/menu_messages_title" />
+
+    <item
+        android:id="@+id/nav_challenges"
+        android:enabled="true"
+        android:icon="@drawable/challenger"
+        android:title="@string/menu_challenges_title" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_black"
+        android:title="@string/menu_settings_title" />
+
+</menu>

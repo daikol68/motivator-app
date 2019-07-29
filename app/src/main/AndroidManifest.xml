@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.daikol.acclaim">
+
+    <!-- To auto-complete the email text field in the login form with the userId's emails -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".application.Challenger"
+        android:allowBackup="true"
+        android:icon="@drawable/challenger"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/ChallengerTheme">
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/challenger" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimaryDark" />
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/ChallengerTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.daikol.acclaim.activity.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".activity.RegistrationActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/ChallengerTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.daikol.acclaim.activity.LoginActivity" />
+        </activity>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/ChallengerTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.UserEditActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/ChallengerTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.daikol.acclaim.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.CompetitorSearchActivity"
+            android:label="@string/title_friend_list"
+            android:parentActivityName=".activity.CompetitionEditActivity"
+            android:theme="@style/ChallengerTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.daikol.acclaim.activity.CompetitionEditActivity" />
+        </activity>
+        <activity
+            android:name=".activity.CompetitionDetailActivity"
+            android:label="@string/title_competition_detail"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/ChallengerTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.daikol.acclaim.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.CompetitionEditActivity"
+            android:label="@string/title_update"
+            android:parentActivityName=".activity.CompetitionDetailActivity"
+            android:theme="@style/ChallengerTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.daikol.acclaim.activity.CompetitionDetailActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
