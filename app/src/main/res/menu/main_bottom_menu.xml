@@ -9,7 +9,7 @@
     <item
         android:id="@+id/nav_challenges"
         android:enabled="true"
-        android:icon="@drawable/challenger"
+        android:icon="@drawable/motivator"
         android:title="@string/menu_challenges_title" />
 
     <item

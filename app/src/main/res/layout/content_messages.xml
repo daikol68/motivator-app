@@ -8,7 +8,7 @@
     android:padding="16dp"
     android:background="@drawable/background_outer"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="de.daikol.acclaim.activity.MessageActivity"
+    tools:context="de.daikol.motivator.activity.MessageActivity"
     tools:showIn="@layout/app_bar_messages">
 
     <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="LinearLayoutManager"
-        tools:context="de.daikol.acclaim.activity.MessageActivity"
+        tools:context="de.daikol.motivator.activity.MessageActivity"
         tools:listitem="@layout/message_list_content"/>
 
 </android.support.design.widget.CoordinatorLayout>

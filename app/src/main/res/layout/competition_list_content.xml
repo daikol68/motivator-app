@@ -54,7 +54,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="1dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/challenger" />
+                android:src="@drawable/motivator" />
 
             <TextView
                 android:id="@+id/competition_list_competition_name"

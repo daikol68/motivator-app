@@ -9,5 +9,5 @@
     android:layout_marginRight="16dp"
     android:divider="@drawable/list_divider"
     app:layoutManager="LinearLayoutManager"
-    tools:context="de.daikol.acclaim.activity.CompetitorSearchActivity"
+    tools:context="de.daikol.motivator.activity.CompetitorSearchActivity"
     tools:listitem="@layout/competitor_list_content" />
